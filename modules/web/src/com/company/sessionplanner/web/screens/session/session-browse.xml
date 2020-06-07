@@ -43,12 +43,12 @@
                         <action id="remove" type="remove"/>
                     </actions>
                     <columns>
-                        <column id="topic"/>
-                        <column id="startDate"/>
-                        <column id="duration"/>
-                        <column id="speaker"/>
-                        <column id="description"/>
-                        <column id="endDate"/>
+                        <column id="topic" caption="msg://topic"/>
+                        <column id="startDate" caption="msg://startDate"/>
+                        <column id="duration" caption="msg://duration"/>
+                        <column id="speaker" caption="msg://speaker"/>
+                        <column id="description" caption="msg://description"/>
+                        <column id="endDate" caption="msg://endDate"/>
                     </columns>
                     <rowsCount/>
                     <buttonsPanel id="buttonsPanel"

@@ -8,9 +8,19 @@ import javax.inject.Inject;
 import java.time.LocalDateTime;
 import java.time.temporal.ChronoUnit;
 
+/**
+ * Service层
+ */
 @Service(SessionService.NAME)
 public class SessionServiceBean implements SessionService {
 
+
+    /**
+     * com.haulmont.cuba.core.global.DataManager
+     * 负责和数据库交互
+     * loadValue函数中写jpql语句
+     * dataManager.commit(对象)是创建或者保存该对象
+     */
     @Inject
     private DataManager dataManager;
 
